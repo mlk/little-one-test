@@ -23,7 +23,8 @@ public class Console {
     // { .. }      <- The code to make this happen. Don't worry about this for now.
     // You can use this method in your code, so in `Lesson1HelloWorld`
     public static void printLine(String data) {
-        System.out.println(data);
+        Console.print(data);
+        Console.printNewLine();
     }
 
 
@@ -46,9 +47,25 @@ public class Console {
         Console.printLine("World");
     }
 
-    // Look at the implementation of both 'sayHello' and 'sayWorld', they both just call an existing method in the
+    // Look at the implementation (the bit between the { .. }) of both 'sayHello' and 'sayWorld', they both call a method in the
     // Console class, but instead of passing in nothing () they pass in what they want to say in quotes.
     // Do you think you can make Lesson1HelloWorld say 'Hello <your name>'?
+
+    public static void print(String data) {
+        System.out.print(data);
+    }
+
+    public static void printNewLine() {
+        System.out.println();
+    }
+
+    public static void printInt(int data) {
+        System.out.print(data);
+    }
+
+    public static void printDouble(double data) {
+        System.out.print(data);
+    }
 
     public static String readLine() {
         return scanner.nextLine();
