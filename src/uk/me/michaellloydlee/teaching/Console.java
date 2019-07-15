@@ -27,6 +27,29 @@ public class Console {
     }
 
 
+    // This is a method call 'sayHello'
+    // You can use this in your 'main' method by calling
+    // Console.sayHell();
+    // Console  <- The name of the class that holds this method.
+    // .        <- 'I want to use something in that class.
+    // sayHello <- The method name.
+    // ()       <- The input to
+    // { ... }  <- The implementation of the method 'sayHello'.
+    // Try editing Lesson1HelloWorld to call 'sayHello' and then click on the green arrow.
+    public static void sayHello() {
+        Console.printLine("Hello");
+    }
+
+    // This is a different method, it will say 'World'.
+    // Can you make Lesson1HelloWorld say 'Hello World'?
+    public static void sayWorld() {
+        Console.printLine("World");
+    }
+
+    // Look at the implementation of both 'sayHello' and 'sayWorld', they both just call an existing method in the
+    // Console class, but instead of passing in nothing () they pass in what they want to say in quotes.
+    // Do you think you can make Lesson1HelloWorld say 'Hello <your name>'?
+
     public static String readLine() {
         return scanner.nextLine();
     }
