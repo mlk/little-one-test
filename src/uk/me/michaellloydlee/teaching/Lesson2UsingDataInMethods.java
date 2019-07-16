@@ -30,7 +30,7 @@ public class Lesson2UsingDataInMethods {
     // Lets change myName so it instead calls the method.
     // String myName = Console.readLine();
     // Now lets run the application (the green arrow).
-    // The application has asked for a name then stopped. Click in the Run window and type you name and hit 'Enter'.
+    // The application has asked for a name then stopped. Click in the Run window and type your name and hit 'Enter'.
     // You have now feed data into your application and printed it back out! Awesome!
     // Can you now make the application ask for you name and your age?
     // Look up the methods: Console.readInt() and Console.printInt(<data>)
