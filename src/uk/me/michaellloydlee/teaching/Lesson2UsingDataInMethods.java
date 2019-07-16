@@ -17,7 +17,7 @@ public class Lesson2UsingDataInMethods {
         Console.printLine("What is your name?");
         String myName = "Jeff";
 
-        // Notice the different method, can you see the difference?
+        // Notice the different method, can you see the difference in the output?
         Console.print("Your name is ");
         Console.printLine(myName);
     }
